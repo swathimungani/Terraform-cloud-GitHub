@@ -13,7 +13,7 @@ provider "aws" {
         #profile = "default"
 	}
 
-resource "aws_instance" "swathiinfra" {
+resource "aws_instance" "swathi infra" {
 	ami = "ami-022e1a32d3f742bd8" 
 	instance_type = "t2.micro"
 }
